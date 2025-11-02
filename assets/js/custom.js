@@ -222,18 +222,6 @@ $(window).on('load', function() {
 })(jQuery);
 
 
-// Function to toggle the visibility of WhatsApp button
-function toggleWhatsAppButton() {
-    const whatsappButton = document.getElementById('whatsappBtn');
-    whatsappButton.classList.toggle('show'); // Toggle the 'show' class to show/hide the button
-}
-
-// Call the toggleWhatsAppButton function when the page loads
-window.addEventListener('load', () => {
-    toggleWhatsAppButton(); // Initially show the button
-    setInterval(toggleWhatsAppButton, 3000); // Toggle the button every 3 seconds
-});
-
 document.addEventListener("DOMContentLoaded", function() {
     let images = document.querySelectorAll('.sliding-background img');
     let currentImageIndex = 0;
